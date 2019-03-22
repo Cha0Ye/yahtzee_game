@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for locked 1`] = `
+<Die
+  locked={true}
+  val={2}
+>
+  <button
+    className="Die Die-locked"
+    onClick={[Function]}
+  >
+    2
+  </button>
+</Die>
+`;
+
+exports[`matches snapshot for unlocked 1`] = `
+<Die
+  locked={false}
+  val={2}
+>
+  <button
+    className="Die"
+    onClick={[Function]}
+  >
+    2
+  </button>
+</Die>
+`;
