@@ -59,7 +59,6 @@ class Game extends Component {
     // evaluate this ruleFn with the dice and score this rulename
     this.setState(st => ({
       scores: { ...st.scores, [rulename]: ruleFn(this.state.dice) },
-      rollsLeft: NUM_ROLLS,
       locked: Array(NUM_DICE).fill(false),
     }));
     this.roll();
@@ -67,7 +66,7 @@ class Game extends Component {
 
   render() {
     return (
-      <section>
+      <section> 
         <Dice dice={this.state.dice} locked={this.state.locked} handleClick={this.toggleLocked} />
         <button
           className="Game-reroll"
