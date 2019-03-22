@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for rulerow 1`] = `
+<RuleRow
+  doScore={[Function]}
+  name="TEST"
+  score={2}
+>
+  <tr
+    className="RuleRow RuleRow-active"
+    onClick={[Function]}
+  >
+    <td
+      className="RuleRow-name"
+    >
+      TEST
+    </td>
+    <td
+      className="RuleRow-score"
+    >
+      2
+    </td>
+  </tr>
+</RuleRow>
+`;

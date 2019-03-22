@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for unlocked 1`] = `
+<Dice
+  dice={
+    Array [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+    ]
+  }
+  handleClick={[Function]}
+  locked={
+    Array [
+      true,
+      false,
+      false,
+      false,
+      false,
+    ]
+  }
+>
+  <div
+    className="Dice"
+  >
+    <Die
+      handleClick={[Function]}
+      idx={0}
+      key="0"
+      locked={true}
+    >
+      <button
+        className="Die Die-locked"
+        onClick={[Function]}
+      />
+    </Die>
+    <Die
+      handleClick={[Function]}
+      idx={1}
+      key="1"
+      locked={false}
+    >
+      <button
+        className="Die"
+        onClick={[Function]}
+      />
+    </Die>
+    <Die
+      handleClick={[Function]}
+      idx={2}
+      key="2"
+      locked={false}
+    >
+      <button
+        className="Die"
+        onClick={[Function]}
+      />
+    </Die>
+    <Die
+      handleClick={[Function]}
+      idx={3}
+      key="3"
+      locked={false}
+    >
+      <button
+        className="Die"
+        onClick={[Function]}
+      />
+    </Die>
+    <Die
+      handleClick={[Function]}
+      idx={4}
+      key="4"
+      locked={false}
+    >
+      <button
+        className="Die"
+        onClick={[Function]}
+      />
+    </Die>
+  </div>
+</Dice>
+`;
